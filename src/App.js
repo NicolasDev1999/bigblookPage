@@ -4,7 +4,7 @@ import WhatsAppButton from "./Componentes/Body/Whatsapp/Whatsapp";
 import Footer from "./Componentes/Footer/Footer";
 import NavBar from "./Componentes/Header/NavBar/NavBar";
 import Banner from "./Componentes/Body/Home/Banner";
-import About from "./Componentes/Body/Informacion/About";
+import PisciBlook from "./Componentes/PsciBlook/BannerPisciBlook/PisciBlook";
 import Gallery from "./Componentes/Body/Gallery/Gallery";
 import BigBanner from "./Componentes/Body/BigBanner/BigBanner";
 import Featured from "./Componentes/Body/FeaturedMenu/Featured";
@@ -25,7 +25,7 @@ function App() {
             <Route path="/" element={<BigBanner />} />
             <Route path="/BigBanner" element={<BigBanner />} />
             <Route path="/BigGallery" element={<BigGallery/>} />
-            <Route path="/Gallery" element={<Gallery/>}/>
+            <Route path="/PisciBlook" element={<PisciBlook/>}/>
             <Route path="/Formulario" element={<Formulario/>}/>
           </Routes>
           <Featured/>

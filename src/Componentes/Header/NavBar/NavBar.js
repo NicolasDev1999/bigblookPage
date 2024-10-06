@@ -49,7 +49,7 @@ const NavBar = () => {
             <Link to="/BigGallery">Casas</Link>
           </li>
           <li className="navbar-item">
-            <Link to="/Gallery">Piscinas</Link>
+            <Link to="/PisciBlook">Piscinas</Link>
           </li>
           <li className="navbar-item">
             <Link to="/Formulario">Cantacto</Link>
@@ -57,14 +57,14 @@ const NavBar = () => {
         </ul>
       ) : (
         <div className="mobile-nav">
-          <Link to="/Banner" className="mobile-nav-item">
+          <Link to="/BigBanner" className="mobile-nav-item">
             Inicio
           </Link>
-          <Link to="/About" className="mobile-nav-item">
-            Sobre Mi
+          <Link to="/BigGallery" className="mobile-nav-item">
+            Casas
           </Link>
-          <Link to="/Gallery" className="mobile-nav-item">
-            Experiencia
+          <Link to="/PisciBlook" className="mobile-nav-item">
+            Piscinas
           </Link>
           <Link to="/Formulario" className="mobile-nav-item">
             Contacto

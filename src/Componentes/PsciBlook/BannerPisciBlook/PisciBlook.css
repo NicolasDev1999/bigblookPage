@@ -1,0 +1,58 @@
+.pisciBlook-container {
+  background: linear-gradient(90deg, #1a1a2e, #16213e, #0f3460, #53354a, #6f2232);
+  background-size: 200% 200%;
+
+  }
+  
+  .pisciBlook-icon {
+    margin-bottom: 0px;
+  }
+  
+  .pisciBlook-img {
+    width: 100px;
+    height: 100px;
+    background: #615afa;
+    border-radius: 61px;
+  }
+  
+  .pisciBlook-navbar {
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  .pisciBlook-navbar-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 30%;
+  }
+  
+  .pisciBlook-navbar-list li {
+    margin: 0 ;
+  }
+  
+  .pisciBlook-navbar-list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .pisciBlook-navbar-list li a:hover {
+    color: #f0a500;
+  }
+  
+  .pisciBlook-banner {
+    text-align: center;
+  }
+  
+  .pisciBlook-banner h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .pisciBlook-banner p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
