@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bigblookPage/static/css/main.28eb9d0d.css",
-    "main.js": "/bigblookPage/static/js/main.76b1d35f.js",
+    "main.css": "/bigblookPage/static/css/main.589312b3.css",
+    "main.js": "/bigblookPage/static/js/main.f91c2321.js",
     "static/media/casa (4).jpeg": "/bigblookPage/static/media/casa (4).29a0035ca4c5cfee7f44.jpeg",
     "static/media/imageAbout.png": "/bigblookPage/static/media/imageAbout.c47151727e8c104e6fb0.png",
     "static/media/slick.svg": "/bigblookPage/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -9,11 +9,11 @@
     "static/media/slick.ttf": "/bigblookPage/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/bigblookPage/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/bigblookPage/index.html",
-    "main.28eb9d0d.css.map": "/bigblookPage/static/css/main.28eb9d0d.css.map",
-    "main.76b1d35f.js.map": "/bigblookPage/static/js/main.76b1d35f.js.map"
+    "main.589312b3.css.map": "/bigblookPage/static/css/main.589312b3.css.map",
+    "main.f91c2321.js.map": "/bigblookPage/static/js/main.f91c2321.js.map"
   },
   "entrypoints": [
-    "static/css/main.28eb9d0d.css",
-    "static/js/main.76b1d35f.js"
+    "static/css/main.589312b3.css",
+    "static/js/main.f91c2321.js"
   ]
 }
