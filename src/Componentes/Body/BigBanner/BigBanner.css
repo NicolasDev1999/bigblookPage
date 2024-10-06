@@ -1,0 +1,55 @@
+.bigbanner_content {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Ajusta la altura según lo necesites */
+  overflow: hidden;
+}
+
+.gallery_background-bigblook {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.gallery_background-bigblook img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.background_image.visible {
+  opacity: 1;
+}
+
+.background_image.hidden {
+  opacity: 0;
+}
+
+.text_banner-bigblok {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+.text_banner-bigblok h2 {
+  margin: 0;
+  text-shadow: 
+  -2px -2px 0 rgb(18, 163, 49), /* Sombra en la esquina superior izquierda */
+  2px -2px 0 rgb(14, 196, 38),  /* Sombra en la esquina superior derecha */
+  -2px 2px 0 rgb(35, 163, 10),  /* Sombra en la esquina inferior izquierda */
+  2px 2px 0 rgb(10, 160, 10);   /* Sombra en la esquina inferior derecha */
+}
+
+.text_banner-bigblok p {
+  margin: 10px 0 0;
+}

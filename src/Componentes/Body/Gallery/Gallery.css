@@ -1,0 +1,48 @@
+.Gallery {
+    display: flex;
+    height: 69vh;
+    padding: 25px;
+    animation: gradientAnimation 5s ease infinite;
+}
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+@media (max-width: 768px) {
+    .Gallery {
+        display: flex;
+        height: auto;
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+}
+
+.Gallery-content {
+    align-content: center;
+    width: 50%;
+    padding: 25px;
+
+}
+
+@media (max-width: 768px) {
+    .Gallery-content {
+        align-content: center;
+        width: auto;
+        padding: 25px;
+
+    }
+}
+
+.Gallery-text {
+    color: #ffff;
+
+    padding: 25px;
+}

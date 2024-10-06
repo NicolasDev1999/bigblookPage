@@ -1,0 +1,5 @@
+
+.container{
+    animation: gradientAnimation 8s ease infinite;
+    position:relative;   
+}

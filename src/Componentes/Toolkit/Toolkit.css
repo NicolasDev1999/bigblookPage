@@ -1,0 +1,51 @@
+  .text-large {
+    font-size: var(--font-size-large);
+  }
+  
+  .text-contrast {
+    color: var(--color-contrast);
+  }
+  
+/* src/components/Toolkit.css */
+.toolkit-container {
+    position: fixed;
+    right: 0px;
+    top: 10vh;
+    width: 40px;
+    background-color: #33333367;
+    color: #fff;
+    border-radius: 5px 0px 0px 5px;
+    transition: width 0.3s ease;
+    overflow: hidden; /* Ocultar contenido inicialmente */
+    z-index: 1000;
+}
+
+.toolkit-container.expanded {
+    width: 200px; /* Ancho del toolkit cuando está expandido */
+}
+
+.toolkit {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    transition: opacity 0.3s ease;
+    opacity: 0; /* Hacer el contenido invisible inicialmente */
+}
+
+.toolkit-container.expanded .toolkit {
+    opacity: 1; /* Mostrar contenido cuando el toolkit está expandido */
+}
+
+.toggle-arrow {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(140deg);
+  cursor: alias;
+}

@@ -1,0 +1,49 @@
+.sub-gallery {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8); /* Fondo oscuro con transparencia */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999; /* Asegúrate de que la subgalería esté por encima de otros elementos */
+  }
+  
+  .sub-gallery-content {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten al contenedor */
+    justify-content: center; /* Centra las imágenes */
+    max-width: 90%; /* Ancho máximo para que no se desborde */
+    margin: auto; /* Centra horizontalmente */
+  }
+  
+  .sub-gallery-item {
+    margin: 10px;
+    overflow: hidden; /* Esconde el contenido que se sale del área del item */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+  
+  .sub-gallery-item img {
+    width: 100%; /* Asegura que la imagen ocupe todo el espacio del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto */
+    max-height: 250px; /* Limita la altura para que no se desborde */
+    display: block; /* Elimina el espacio debajo de las imágenes */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: white; /* Fondo blanco para el botón */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    z-index: 1000; /* Asegúrate de que el botón esté por encima de otros elementos */
+  }
+  
