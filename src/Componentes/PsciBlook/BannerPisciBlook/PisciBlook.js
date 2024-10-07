@@ -10,7 +10,7 @@ const PisciBlook = () => {
       {/* Navbar personalizado */}
       <nav className="pisciBlook-navbar">
       <div className="pisciBlook-icon">
-        <img src={`${process.env.PUBLIC_URL}/pisciBlook.png`} alt="Icono PisciBlook" className="pisciBlook-img" />
+        <img src="./imagenes/PisciBlook.png" alt="Icono PisciBlook" className="pisciBlook-img" />
       </div>
         <ul className="pisciBlook-navbar-list">
           <li><a href="#section1">Sección 1</a></li>
@@ -21,7 +21,7 @@ const PisciBlook = () => {
 
       {/* Banner */}
       <div className="pisciBlook-banner">
-        <h1>Bienvenidos a PisciBlook</h1>
+        <h1>Bienvenidos a PISCIBLOCK</h1>
         <p>Una sección especial para explorar nuestro contenido único.</p>
       </div>
     </div>

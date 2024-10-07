@@ -11,11 +11,14 @@ import Featured from "./Componentes/Body/FeaturedMenu/Featured";
 import BigGallery from "./Componentes/Body/Gallery_Big/BigGallery";
 import Formulario from "./Componentes/Body/Form/Formulario";
 import Toolkit from "./Componentes/Toolkit/Toolkit";
+import BannerSpam from "./Componentes/Body/Spam/BannerSpam";
 
 function App() {
   return (
+   
     <Router>
       <div className="App">
+      <BannerSpam/>
         <header className="App-header">
           <NavBar />
         </header>

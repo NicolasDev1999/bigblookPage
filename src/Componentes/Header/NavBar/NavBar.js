@@ -21,7 +21,7 @@ const NavBar = () => {
     <nav className="navbar">
 
     <div className="navbar-icon">
-        <a href="/Page202409/">
+        <a href="/bigblookPage/">
         <motion.div
          className="box"
          initial={{ opacity: 0, scale: 0.5 }}

@@ -30,8 +30,7 @@ const BigBanner = () => {
         ))}
       </div>
       <div className='text_banner-bigblok'>
-        <h2>Bigblook</h2>
-        <p>Construcción industrializada</p>
+        <img src={`${process.env.PUBLIC_URL}/icono.png`} alt='ImagenBigblock'></img>
       </div>
     </div>
   );

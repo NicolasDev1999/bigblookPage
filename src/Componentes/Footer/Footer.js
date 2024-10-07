@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { FaLinkedin, FaGithub, FaEnvelope} from "react-icons/fa";
+import { FaYoutube, FaFacebook, FaInstagram, FaTwitter, FaEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
@@ -48,22 +48,42 @@ const Footer = () => {
           <ul className="social-icons">
             <li>
               <a
-                href="https://www.linkedin.com/in/sergiogalindodev/"
+                href="https://www.youtube.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="icon-link"
               >
-                <FaLinkedin size={24} />
+                <FaYoutube size={24} />
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/NicolasDev1999"
+                href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="icon-link"
               >
-                <FaGithub size={24} />
+                <FaFacebook size={24} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link"
+              >
+                <FaInstagram size={24} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-link"
+              >
+                <FaTwitter size={24} />
               </a>
             </li>
           </ul>
@@ -72,7 +92,6 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>
           &copy; 2024 Todos los derechos reservados
-        
         </p>
         <p className="made-in-react">
           &reg; BIGBLOOK INC 

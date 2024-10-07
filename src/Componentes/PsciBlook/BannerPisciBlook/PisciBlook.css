@@ -9,10 +9,10 @@
   }
   
   .pisciBlook-img {
+    background: #ffffff;
+    border-radius: 4px;
+    height: 70px;
     width: 100px;
-    height: 100px;
-    background: #615afa;
-    border-radius: 61px;
   }
   
   .pisciBlook-navbar {
